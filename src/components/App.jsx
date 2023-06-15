@@ -38,7 +38,7 @@ export default function App() {
   };
 
   const totalFeedBacks = countTotalFeedback();
-  const typeOfFeedback = [good, neutral, bad];
+  const typeOfFeedback = ['good', 'neutral', 'bad'];
 
   return (
     <Container>
